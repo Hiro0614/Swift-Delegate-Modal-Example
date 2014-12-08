@@ -14,7 +14,7 @@ protocol ModalViewControllerDelegate{
 
 class ModalViewController: UIViewController {
 
-    var delegate: ParentViewController! = nil
+    var delegate: ModalViewControllerDelegate! = nil
     let text1 = UITextField()
     
     override func viewDidLoad() {
